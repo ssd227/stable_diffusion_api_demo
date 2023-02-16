@@ -27,10 +27,7 @@ COPY ./ /sd_demo
 RUN cd ./front_react && npm install
 
 
-RUN cd .
-CMD [""]
-
-# 启动服务
+# 启动服务 TODO!!!
 
 
 EXPOSE 3000

@@ -1,9 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-import { useState, useRef, useEffect } from 'react';
-
-import {fetchDiffusion, fetchTest} from './api.js'
-
+import { useState} from 'react';
+import {fetchDiffusion} from './api.js'
 
 
 function ResImageArea({img_url}) {
@@ -22,7 +19,7 @@ function ResImageArea({img_url}) {
   else {
     return(
       <div className="image_div">
-      <p> 图片生成中...（等待5s左右）</p>
+      <p> 图片生成中...（等待10s左右）</p>
     </div>
     )
   }
@@ -84,8 +81,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       
-      {/* 标题 */}
-      <h1> stable diffusion v1.4 demo</h1>
+      <h1> stable diffusion demo</h1>
 
       <MainPart/>
       </header>
