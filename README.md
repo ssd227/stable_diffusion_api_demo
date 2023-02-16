@@ -18,6 +18,9 @@
 
 注：react端口：3000；flask端口：5000
 
+# 界面UI
+![title](./UI.png)
+
 # 文件结构
     前端：front_react
         reactjs开发交互UI，通过api.js访问后端服务
